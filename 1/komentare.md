@@ -1,3 +1,5 @@
+# Komentare
+
 Komentář (anglicky comment) označuje sekci v kódu, která není určená pro Pythoní interpreter, ale pro programátora, který kód čte.
 Ve větších projektech je komentování kódu vhodné, aby bylo snadnější se v kódu vyznat. V Pythonu se dělá znakem `#`.
 
