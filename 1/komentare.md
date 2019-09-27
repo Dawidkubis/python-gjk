@@ -10,4 +10,5 @@ print("...")
 ```
 Interpret jazyka Python prostě ignoruje vše, co se nachází po `#` na daném řádku
 
-Je dobrým zvykem komentovat anglicky, protože je angličtina nejdůležitější jazyk v programování. My budeme komentovat česky bez znaků pro studijní účely ale vy nemusíte.
+Je dobrým zvykem komentovat anglicky, protože je angličtina nejdůležitější jazyk v programování.
+My budeme komentovat česky bez znaků pro studijní účely ale vy nemusíte.
