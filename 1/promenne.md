@@ -2,7 +2,7 @@ Proměnná (anglicky variable) je základ ukládání hodnot v programu. Narozd�
 Do proměnné se zapisuje za pomocí `=`.
 
 Příklad:
-```
+```python
 >>> x = 10
 >>> x = x + 1
 >>> x
