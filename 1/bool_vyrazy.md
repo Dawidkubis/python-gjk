@@ -4,7 +4,7 @@ Boolean výrazy jsou výrazy které vracejí dvě možné hodnoty : `True` nebo 
 
 ## Operátory
 
-> `<`, `>` - menší než, větší než
+### `<`, `>` - menší než, větší než
 ```python
 >>> 2 < 3
 True
