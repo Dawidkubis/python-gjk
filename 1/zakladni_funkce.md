@@ -40,7 +40,7 @@ Jako poslední jsme probrali funkci int (což je spíše datový typ, ale my bud
 Ta nám převede nějaký string (zadaný jako argument) na celé číslo, pokud je to možné. Jestliže to možné není, tak hodí chybu (později se naučíme, jak se s takovouhle chybou vyrovnat).
 
 Příklad:
-```
+```python
 ahoj = "1234" # Všimněte si, že ahoj je string (typ str)
 ahoj_cislo = int(ahoj) # ahoj_cislo je nyní celé číslo
 ```
