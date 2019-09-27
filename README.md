@@ -1,3 +1,3 @@
 # python-gjk
 
-Repo s věcmi na draka Pýthona.
+Repo s věcmi na draka Pýthóna.
