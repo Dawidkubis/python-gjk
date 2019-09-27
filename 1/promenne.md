@@ -1,5 +1,5 @@
-Proměnná (anglicky variable) je základ ukládání hodnot v programu. Narozdíl od matematiky je proměnná v programování (v jazyce Python) přepisovatelná (můžeme jít měnit)
-Proměnná se definuje za použití `=`.
+Proměnná (anglicky variable) je základ ukládání hodnot v programu. Narozdíl od matematiky je proměnná v programování (v jazyce Python) přepisovatelná (můžeme jít měnit).
+Do proměnné se zapisuje za pomocí `=`.
 
 Příklad:
 ```
