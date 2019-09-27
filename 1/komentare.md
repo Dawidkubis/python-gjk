@@ -2,7 +2,7 @@ Komentář (anglicky comment) označuje sekci v kódu, která není určená pro
 Ve větších projektech je komentování kódu vhodné, aby bylo snadnější se v kódu vyznat. V Pythonu se dělá znakem `#`.
 
 Komentáře se v pythonu dělají následujícím způsobem:
-```
+```python
 print("Hello World") # All the stuff after # is ignored
 print("This gets executed.")
 ```
