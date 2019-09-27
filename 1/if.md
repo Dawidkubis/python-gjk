@@ -3,6 +3,8 @@
 If je blok který vyhodnocuje nějaký boolean výrazu (výrazu který vrací buď `True` nebo `False`)
 a provadí určitý kód na základě toho, co dostane
 
+## Příklad
+
 ```python
 
 cislo = 12 # tady by mohl byt input() od uzivatele
@@ -18,6 +20,9 @@ else:
 	print('cislo je liche') # toto by se provedlo kdyby se vsechno nad tim neprovedlo
 
 ```
+
+## Další Příklad
+
 ```python
 
 cislo = 12
