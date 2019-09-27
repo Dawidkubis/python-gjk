@@ -1,7 +1,7 @@
 # Python Interpreter
 
 Python interpreter je program jež nám umožňuje spustit skript který jsme si napsali.
-Pokud je v $PATH (což by měl být) tak ho můžeme volat z příkazového řádku (takhle to vypada u me) :
+Pokud je v $PATH (což by měl být) tak ho můžeme volat z příkazového řádku (takhle to vypadá u mě) :
 ```shell
 $ python
 Python 3.7.4 (default, Jul 16 2019, 07:12:58) 
