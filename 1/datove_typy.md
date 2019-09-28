@@ -23,7 +23,7 @@ Python je dynamicky typovaný jazyk :
 Teď si projedeme několik základních datových typů. Budu tady používat funkci `type()`, o které jsme se sice nezmíňovali ale hodí se na zjišťování datového typu proměnných.
 
 ### int
-Typ `int` (integer) je typ který popisuje nějaké celé číslo, kladné nebo záporné.
+Typ `int` (integer) je typ který popisuje nějaké celé číslo, kladné nebo záporné nebo nulové.
 V Pythonu vypadá takhle : 
 ```python
 >>> x = 2 # tohle je int
@@ -33,7 +33,7 @@ V Pythonu vypadá takhle :
 ```
 
 ### float
-Typ `float` je typ který popisuje nějaké číslo s destinnou čárkou, kladné nebo záporné.
+Typ `float` je typ který popisuje nějaké číslo s destinnou čárkou, kladné nebo záporné nebo nulové (psáno jako 0.0).
 ```python
 >>> x = 2.3232 # tohle je float
 >>> x = -32.4444 # tohle je taky float
