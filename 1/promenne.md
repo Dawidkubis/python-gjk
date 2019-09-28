@@ -11,4 +11,4 @@ Příklad:
 ```
 
 Je vhodné pojmenovávat proměnné krátkými názvy (proměnná `text_od_uzivatele_k_parsingu` je hrůza) ale s dostatečným významem (nechceme mít v kódu celou abecedu protože se v tom nikdo nevyzná).
-Proměnné píšeme s malým počátečním písmenem, a bez mezer (`_` na místě mezery). Python to sice nepožaduje ale dělá se to tak a jiní lidé budou z vašeho kódu zmatení a začnou vám nadávat.
+Proměnné píšeme s malým počátečním písmenem, a bez mezer (`_` na místě mezery). Python to sice nepožaduje, ale dělá se to tak, aby jiní lidé nebyli z vašeho kódu zmatení a nenadávali vám.
