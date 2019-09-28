@@ -33,7 +33,7 @@ V Pythonu vypadá takhle :
 ```
 
 ### float
-Typ `float` je typ který popisuje nějaké číslo s destinnou čárkou, kladné nebo záporné nebo nulové (psáno jako 0.0).
+Typ `float` je typ který popisuje nějaké číslo s destinnou čárkou, kladné nebo záporné nebo nulové (psáno jako `0.0`).
 ```python
 >>> x = 2.3232 # tohle je float
 >>> x = -32.4444 # tohle je taky float
