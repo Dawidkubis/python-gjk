@@ -1,0 +1,1 @@
+# Interpretace vs. Kompilace
