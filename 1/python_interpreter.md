@@ -23,3 +23,8 @@ Vocaď můžeme Python používat jako kalkulačku, například :
 Python nám automaticky vyprintuje hodnout všech výrazů, což je specialita interaktivnícho módu.
 
 Když chceme spustit nějaký soubor s python kódem, musíme přidat cestu k souboru jako argument.
+```shell
+$ python <nazev_skriptu>.py
+```
+Všechny python skripy by měly končit koncovkou `.py`.
+Toto bude fungovat jenom pokud jste ve stejné složce jako je `<nazev_skriptu>.py`, jinak budete muset specifikovat relativní nebo absolutní cestu, případně přejít do složky se skriptem pomocí příkazu `cd`. Více o cestách a shellových příkazech najdete [zde](https://ryanstutorials.net/linuxtutorial/navigation.php) (windowsáci si budou muset v mysli nahradit `ls` za `dir`)
