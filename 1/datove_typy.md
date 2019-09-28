@@ -23,7 +23,7 @@ Python je dynamicky typovaný jazyk :
 Teď si projedeme několik základních datových typů. Budu tady používat funkci `type()`, o které jsme se sice nezmíňovali ale hodí se na zjišťování datového typu proměnných.
 
 ### int
-Typ `int`(integer) je typ který popisuje nějaké celé číslo, kladné nebo záporné.
+Typ `int` (integer) je typ který popisuje nějaké celé číslo, kladné nebo záporné.
 V Pythonu vypadá takhle : 
 ```python
 >>> x = 2 # tohle je int
