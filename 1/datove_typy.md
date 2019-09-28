@@ -20,12 +20,16 @@ Python je dynamicky typovaný jazyk :
 
 ## Datové Typy
 
+Teď si projedeme několik základních datových typů. Budu tady používat funkci `type()`, o které jsme se sice nezmíňovali ale hodí se na zjišťování datového typu proměnných.
+
 ### int
 Typ `int`(integer) je typ který popisuje nějaké celé číslo, kladné nebo záporné.
 V Pythonu vypadá takhle : 
 ```python
 >>> x = 2 # tohle je int
 >>> x = -32 # tohle je taky int
+>>> type(x)
+<class 'int'>
 ```
 
 ### float
@@ -33,4 +37,29 @@ Typ `float` je typ který popisuje nějaké číslo s destinnou čárkou, kladn�
 ```python
 >>> x = 2.3232 # tohle je float
 >>> x = -32.4444 # tohle je taky float
+>>> type(x)
+<class 'float'>
 ```
+
+### str/String
+Typ `str` (také `String`) je typ který popisuje nějaký textový řetězec. V Pythonu je do tohoto typu taky zahrnutý takzvaný typ `char`, který popisuje jeden znak.
+Řeťezec by měl být obalen uvozovkami (`""`) nebo apostrofy (`''`) aby se dal odlišit od proměnných.
+```python
+>>> x = 'hello world' # str
+>>> type(x)
+<class 'str'>
+>>>x = 'h' # taky str
+>>> type(x)
+<class 'str'>
+```
+
+### bool
+Typ `bool` (také `boolean`) je typ který má dvě možné hodnoty : `True` čili pravda nebo `False`čili nepravda.
+
+```python
+>>> x = True
+>>> x = False
+>>> type(x)
+<class 'bool'>
+```
+
