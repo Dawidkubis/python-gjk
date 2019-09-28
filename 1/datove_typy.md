@@ -55,11 +55,16 @@ Typ `str` (také `String`) je typ který popisuje nějaký textový řetězec. V
 
 ### bool
 Typ `bool` (také `boolean`) je typ který má dvě možné hodnoty : `True` čili pravda nebo `False`čili nepravda.
-
+Tento typ dokáže přímo pracovat z `if`-ama, jelikož je sám v sobě boolean výrazem.
 ```python
 >>> x = True
 >>> x = False
 >>> type(x)
 <class 'bool'>
+```
+```python
+x = True
+if x:
+	print('tohle se provede protoze x je pravda tudiz nemusime psat : "if x == True:'")
 ```
 
