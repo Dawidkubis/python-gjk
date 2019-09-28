@@ -20,7 +20,7 @@ Vocaď můžeme Python používat jako kalkulačku, například :
 >>> x * 70
 420
 ```
-Python nám automaticky vyprintuje hodnout všech výrazů, což je specialita interaktivnícho módu.
+Python nám automaticky vyprintuje hodnoty všech výrazů, což je specialita interaktivnícho módu.
 
 Když chceme spustit nějaký soubor s python kódem, musíme přidat cestu k souboru jako argument.
 ```shell
