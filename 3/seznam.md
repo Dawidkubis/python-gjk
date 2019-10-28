@@ -7,8 +7,11 @@ což je číslo které popisuje kolikátý prvek to je.
 
 
 [1, 2, 3]
+
  ^- index 0
+
     ^- index 1
+
        ^- index 2
 
 ```python
