@@ -1,10 +1,14 @@
 # Funkce
 
 Funkce jsou jedna z nejpodstatnějších věcí o kterých se budeme bavit.
+
 Funkce nám pomáhají neopakovat kód, jinými slovy díky funkcím můžeme 
 znovupoužít kusy kódu.
+
 Funkce slouží jako logické rozdělení toho jak má fungovat náš program.
+
 Funkce jsou žívot.
+
 Funkce jsou smrt.
 
 ```python
