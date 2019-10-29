@@ -31,3 +31,41 @@ world
 1
 2
 ```
+
+# Input/Output
+
+Vstup a výstup funkce zajištují argumenty a return hodnoty.
+
+Argumenty píšeme do závorky za názvem funkce.
+
+```python
+def funkce(argument, dalsi_argument):
+	# .. bla bla bla
+	# s argumenty pracujeme jako s promennymi
+```
+
+Return píšeme uvnitř funkce.
+
+```python
+def funkce():
+	return 'ahoj' # tahle funkce vraci 'ahoj' po spusteni
+	# return ukonci praci funkce
+
+>>> print(funkce())
+ahoj
+```
+
+# Pass
+
+`pass` nám dovolí nechat nedopsanou funkci která nevyhodí error 
+při interpretaci. Má to svoji funkci když plánujeme co napíšeme a 
+tvoříme funkce ale není to podstatný si to pamatovat. Spíše se 
+jenom nedivte až to někde uvidíte.
+
+```python
+def funkce():
+	pass
+
+>>> funkce()
+>>> # nic se nestalo lol
+```
