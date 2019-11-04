@@ -6,7 +6,6 @@ def gen_primes(lim): # kratsi nazev -> optimalizace :D
 # lol tohle je doslova nenormalni
 # prosim nepiste takovyhle kod, nikdo tomu nebude rozumet
 # ale je to celkem flex
-# rekneme ze mi to dost trvalo nez jsem na tohle prisel
 
 print(gen_primes(int(input("zadej cislo : "))))
 
