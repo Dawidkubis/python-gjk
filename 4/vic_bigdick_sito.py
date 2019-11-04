@@ -1,5 +1,5 @@
 # Sire Kubisi, tady jsem vas dobehl
-# Tohle sito je lepsi, kratsi a rychlejsi
+# Tohle single line sito je lepsi, kratsi a rychlejsi
 # (Meril jsem to pomoci timeit)
 
 from functools import reduce
