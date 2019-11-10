@@ -62,7 +62,8 @@ def AImove():
         continue
     return move
     
-    
+
+#LUKÁŠ - Tyhle module-level globaly by neměly fungovat, jsi si jistý, že jsi nahrál správný kód?
 #hra
 global board
 board = np.zeros((3, 3), dtype=np.int)
