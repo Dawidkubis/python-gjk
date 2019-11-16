@@ -1,3 +1,14 @@
+# Zdar, tady Lukáš
+# Možná jsem tu našel něco jako chybu, tak se na to podívej, je to v tom hlavním cyklu
+
+# Taky je v tvém kódu přímo vidět nějaký ten vliv toho C# nebo tak něčeho, 
+# protože pojmenováváš věci s velkým písmenem na začátku. Dále jsi také s pojmenováváním trošku nekonzistentní.
+# V Pythonu jsou zvyky trochu jiné, ale chyba to samozřejmě není.
+
+# Dobrý, akorát k tomu mám jednu připomínku – 
+# tady ukládáš data rovnou v jejich výsledném formátu, ale smysluplnější je ukládat
+# data v nějakém jednodušším formátu, který je pak před vypsáním do výsledného formátu převeden,
+# protože takto musíš porovnávat políčka s jejich výslednými formáty
 board = ["[ ]", "[ ]", "[ ]",
          "[ ]", "[ ]", "[ ]",
          "[ ]", "[ ]", "[ ]"]
@@ -6,6 +17,7 @@ Hra = True
 kolo = 1
 winner_2 = None
 
+# Lukáš - Docela fajn, vypadá to čitelně
 #spuští funkce ve správném pořadí
 def tah():
     Tah = Input_pos()
@@ -60,7 +72,12 @@ def To_Index(tah):
     index = tah[0] + ((tah[1] - 1) * 3) - 1
     return index
 
+# Lukáš - tohle by se dalo udělat za pomocí cyklů mnohem snadněji, příště to zkus nějak chytřeji
+# Lukáš - jakmile začneš psát kód, který se nějak podivně opakuje, tak zkus popřemýšlet, jak by to šlo lépe
 #skontroluje zde hráč nevyhrál
+# Lukáš - a v tvém komentáři je děsivá pravopisná chyba :^)
+# Lukáš - i programátor musí umět pravopis, i když všichni už víme, že programovací jazyky dávají mnohem větší smysl
+# Lukáš - (jedna kamarádka mi pořád opravuje chyby, takže už mi to teď taky dost vadí)
 def Chack():
     if board[0] == board[1] and board[0] == board[2] and not board[0] == "[ ]": #123
         if board[0] == "[X]":
@@ -108,14 +125,16 @@ def Chack():
 Show()
 while Hra:
     tah()
-    if not Chack() == None:
+    if not Chack() == None: 
+        # Lukáš - toto vypadá jako chyba, protože not z čehokoliv nikdy nemůže být None
+        # Lukáš - mimochodem, když porovnáváš == None, tak je vhodnější použít is None (porovnání identity objektu), protože None existuje pouze jenom jedno pro celý vesmír          
         Hra = False
         if player_2:
             print("Hráč 2 wyhrál v kole", kolo)
         else:
             print("Hráč 1 wyhrál v kole", kolo)
-    player_2 = not player_2
+    player_2 = not player_2 # Lukáš - inteligentní
     kolo += 1
-    if kolo > 8:
+    if kolo > 8: # Lukáš - taky inteligentní
         Hra = False
         print("Hra skončila bez výsledku")
