@@ -66,7 +66,7 @@ def play1(): # dve oddeleny funkce pro ruzne hrace
 
     print(grid[0][0] + "  |  " + grid[1][0] + "  |  " + grid[2][0] + "\n" + "__" + "   " + "__" + "   " + "__" +
           "\n" + grid[0][1] + "   |  " + grid[1][1] + "  |  " + grid[2][1] + "\n" + "__" + "   " + "__" + "   " + "__" +
-          "\n" + grid[0][2] + "   |  " + grid[1][2] + "  |  " + grid[2][2])
+          "\n" + grid[0][2] + "   |  " + grid[1][2] + "  |  " + grid[2][2]) # celkem v pohode lol
 
 def play2():
     print("Now will play player 2\n")
