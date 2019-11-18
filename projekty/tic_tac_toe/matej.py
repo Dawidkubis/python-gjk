@@ -81,7 +81,6 @@ def play2():
     true_y_1 = False
 
     while not true_taken_2:
-
         while not true_x_1:
 
             x_input_2 = int(input("Enter x axis position (1, 2, 3): "))
@@ -125,14 +124,14 @@ def win():
     global x
     # globaly fuj fuj
     x0_y0 = grid[0][0] # <-- gay
-    x0_y1 = grid[0][1]
-    x0_y2 = grid[0][2]
-    x1_y0 = grid[1][0]
-    x1_y1 = grid[1][1]
-    x1_y2 = grid[1][2]
-    x2_y0 = grid[2][0]
-    x2_y1 = grid[2][1]
-    x2_y2 = grid[2][2]
+    x0_y1 = grid[0][1] # <-- gay
+    x0_y2 = grid[0][2] # <-- gay
+    x1_y0 = grid[1][0] # <-- gay
+    x1_y1 = grid[1][1] # <-- gay
+    x1_y2 = grid[1][2] # <-- gay
+    x2_y0 = grid[2][0] # <-- gay
+    x2_y1 = grid[2][1] # <-- gay
+    x2_y2 = grid[2][2] # <-- gay
 
     if x0_y0 == x0_y1 == x0_y2 and x0_y0 == "X":
         print("Player 1 wins")
