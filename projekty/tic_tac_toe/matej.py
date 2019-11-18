@@ -28,7 +28,8 @@ def play1(): # dve oddeleny funkce pro ruzne hrace
     print("Now will play player 1") # english
 
     while not true_taken_1: # celkem elegantni, az na to ze moc ne
-        # chytrejsi 
+        # chytrejsi by bylo volat funkci na taken ale to by
+        # vyzadovalo premyslet o strukture programu, vid ze jo?
 
         while not true_x:
 
