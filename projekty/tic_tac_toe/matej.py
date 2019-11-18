@@ -5,18 +5,28 @@ grid = [
 ]
 
 x = False
+# nazev promenny nic nerika
+# taky ta definice je kilometry od mista kde se
+# ta promenna pouzije :(
 
-def play1():
+def play1(): # dve oddeleny funkce pro ruzne hrace
+             # debilni protoze a) nemuzeme snadno pridat hrace
+             #                 b) opakovani kodu
 
     global x_input_1
     global y_input_1
-    true_x = False
-    true_y = False
+    # oof, globaly
+    
+    true_x = False # lol, to jsou nazvy.
+    true_y = False # procs tam nenapsal rovnou:
+    #false_y = True
+    # :D
     true_taken_1 = False
 
-    print("Now will play player 1")
+    print("Now will play player 1") # english
 
-    while not true_taken_1:
+    while not true_taken_1: # celkem elegantni, az na to ze moc ne
+        # chytrejsi 
 
         while not true_x:
 
@@ -62,6 +72,7 @@ def play2():
     print("Now will play player 2\n")
     global x_input_2
     global y_input_2
+    # globaly fuj fuj
     true_taken_2 = False
     true_x_1 = False
     true_y_1 = False
@@ -109,7 +120,8 @@ def play2():
 
 def win():
     global x
-    x0_y0 = grid[0][0]
+    # globaly fuj fuj
+    x0_y0 = grid[0][0] # <-- gay
     x0_y1 = grid[0][1]
     x0_y2 = grid[0][2]
     x1_y0 = grid[1][0]
