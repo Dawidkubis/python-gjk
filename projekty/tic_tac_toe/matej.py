@@ -21,6 +21,8 @@ def play1(): # dve oddeleny funkce pro ruzne hrace
     true_y = False # procs tam nenapsal rovnou:
     #false_y = True
     # :D
+    # ale vazne by bylo lepsi:
+    #bool_y = False
     true_taken_1 = False
 
     print("Now will play player 1") # english
