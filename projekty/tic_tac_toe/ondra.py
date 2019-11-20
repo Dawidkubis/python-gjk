@@ -19,7 +19,7 @@ winner_2 = None
 #spuští funkce ve správném pořadí
 def tah():
     Tah = Input_pos()
-    while Input_chack(Tah) == False:
+    while Input_chack(Tah) == False: # gay protoze input chack vraci bool - Dawid
         Tah = Input_pos()
     Move(Tah)
     Show()
