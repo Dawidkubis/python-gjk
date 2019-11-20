@@ -1,5 +1,5 @@
-plocha = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]] # globalni promenne;
-hrac = "X"                                                   # spatnej zvyk
+plocha = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]] # globaly - spatnej zvyk
+hrac = "X" 
 
 def kontrola(): # kontrola vsech moznosti; celkem v pohode tady ale slo to vyresit chytreji
                 # kdybychom najednou zmenili plochu z 3x3 na 4x4 tak uz by to nefungovalo
