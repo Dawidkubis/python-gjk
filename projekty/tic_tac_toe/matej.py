@@ -42,7 +42,7 @@ def play1(): # dve oddeleny funkce pro ruzne hrace
             elif x_input_1 == 3:
                 true_x = True
             else:
-                print("Try again (1, 2, 3)")
+                print("Try again (1, 2, 3)") # eeeh, zdaleka ne moc elegantni
 
         while not true_y:
 
@@ -183,8 +183,19 @@ def win():
     elif x2_y0 == x1_y1 == x0_y2 and x2_y0 == "O":
         print("Player 2 wins")
         x = True
+    # top kek, jeste jsi ani neresil to ze vlastne nemusis rozlisovat
+    # mezi X a O, staci ze jsou stejny. dalo se to vymyslet mnohem
+    # jednoduseji, o tom byl ten ukol
 
-while not x:
+while not x: # mega gay, tyhle casti programu se rika
+             # mainloop, a princip je takovej ze kdyz
+             # hra skonci tak breakujes. To tady pochopitelne
+             # nemas, protoze tvoje kazda funkce je void (a nic nevraci)
+             # takze vystup je printovej. To je mega gay, protoze nevyuzivas
+             # potencial funkci a taky print je vedlejsi efekt o kterym jsem
+             # se bavil ze je to presne to co nechces
+
+            # takze ten program sice pozna ze nekdo vyhral, ale neskonci
     win()
     play1()
 
@@ -193,3 +204,10 @@ while not x:
         play2()
 
 print("End of the game")
+
+# krasnej priklad toho, proc jsem vam rikal abyste si nejdriv program
+# promysleli nez ho naprogramujete
+
+# na druhou stranu respekt zes to dotahl i presto ze je to tak necitelny
+# a taky diky tobe mam o cem mluvit :D
+
