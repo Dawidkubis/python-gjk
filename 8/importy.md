@@ -50,5 +50,7 @@ Pak pockame az se stahne requests a muzeme pouzivat:
 ```python
 import requests
 
-requests
+a = requests.get("https://raw.githubusercontent.com/Dawidkubis/python-gjk/master/8/importy.md")
+print(a.text)
 ```
+Schvalne zkuste co vam to vypise :D
