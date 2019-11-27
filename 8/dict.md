@@ -1,0 +1,3 @@
+# Dict
+
+Vskrna dopln pls
