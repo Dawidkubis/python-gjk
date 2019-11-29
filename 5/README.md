@@ -1,14 +1,10 @@
 # Úvod
 
-> Děláme na piškvorkách.
-> 
-> Chci aby byl kód ve funkcích.
-> 
-> Chci aby to umělo poznat kdy kdo vyhrál.
-> 
-> Chci aby to bylo debil-proof.
+Delame piskvorky pro 2 hrace.
 
-		- Dawid J. Kubis
+Ma to poznavat kdy kdo vyhral.
+
+Ma to brat vstup jako souradnice kam chce hrac polozit `x` nebo `o`.
 
 # Struktura
 
