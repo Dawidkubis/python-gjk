@@ -3,7 +3,7 @@
 Učí profesor Kubis a docent Veškrna.
 
 ## 1
-+ [bool_vyrazy](1/bool_vyrazy)
++ [bool_vyrazy](./1/bool_vyrazy)
 ...
 
 ## 2
