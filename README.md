@@ -22,14 +22,11 @@ Učí profesor Kubis a docent Veškrna.
 + [range](3/range)
 + [seznam](3/seznam)
 
-## 5
-+ [README](5/README)
+## [5](5)
 
-## 6
-+ [README](6/README)
+## [6](6)
 
-## 7
-+ [README](7/README)
+## [7](7)
 
 ## 8
 + [dict](8/dict)
@@ -38,6 +35,5 @@ Učí profesor Kubis a docent Veškrna.
 + [requests_and_http](8/requests_and_http)
 + [tenary_operator](8/tenary_operator)
 
-## 9
-+ [README](9/README)
+## [9](9)
 

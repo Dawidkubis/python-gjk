@@ -28,8 +28,11 @@ def mkformat(files):
 	files = path_dict(files)
 
 	for key in files:
-		result.append(f'## {key}')
-		for name in sorted(files[key]):
+		if 'README' in files[key]:
+			result.append(f'## [{key}]({key})')
+		else:
+			result.append(f'## {key}')
+		for name in [i for i in sorted(files[key]) if i != 'README']:
 			result.append(f'+ [{name}]({os.path.join(key, name)})')
 		result.append('')
 	
