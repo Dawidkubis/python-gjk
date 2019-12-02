@@ -37,6 +37,3 @@ Učí profesor Kubis a docent Veškrna.
 
 ## [9](9)
 
-## 
-+ [PREFIX](PREFIX)
-

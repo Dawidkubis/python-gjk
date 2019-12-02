@@ -46,7 +46,7 @@ if os.path.exists('PREFIX.md'):
 	with open('PREFIX.md') as p:
 		prefix = p.readlines()
 
-files = sorted([i[2:] for i in get_mds('.') if i != './README'])
+files = sorted([i[2:] for i in get_mds('.') if i != './README' and i != './PREFIX'])
 
 with open('README.md', 'w') as f:
 	to_write = mkformat(files)
