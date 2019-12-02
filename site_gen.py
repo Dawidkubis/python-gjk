@@ -3,12 +3,6 @@
 import os
 from functools import reduce
 
-PREFIX = '''# python-gjk
-
-Učí profesor Kubis a docent Veškrna.
-
-'''.splitlines()
-
 def get_mds(path):
 	results = []
 	for i in os.listdir(path):
@@ -47,9 +41,15 @@ def path_dict(files):
 		di[x].append(y)
 	return di
 
+prefix = []
+if os.path.exists('PREFIX.md'):
+	with open('PREFIX.md') as p:
+		prefix = p.readlines()
+
 files = sorted([i[2:] for i in get_mds('.') if i != './README'])
 
 with open('README.md', 'w') as f:
-	to_write = PREFIX + mkformat(files)
+	to_write = mkformat(files)
 	to_write = [i + '\n' for i in to_write]
+	to_write = prefix + to_write
 	f.writelines(to_write)
