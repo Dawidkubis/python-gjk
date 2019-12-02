@@ -25,7 +25,7 @@ Učí profesor Kubis a docent Veškrna.
 ## 5
 + [README](5/README)
 
-## 6
+## [6](6)
 + [README](6/README)
 
 ## 7
