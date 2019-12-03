@@ -11,3 +11,6 @@ Strojový kód jsou přímé instrukce pro počítač, tudíž soubory se strojo
 Kompilace je základní princip fungování počítačových jazyků.
 Idea je taková že vezmeme nějakej source kód a přeložíme ho na strojový kód.
 Programu který překládá se říká "compiler".
+
+> konkretne compiler preklada kod urovne vyssi (napriklad python) do urovne nizsi (napriklad pythoni bytecode)
+	- Karel Jílek
