@@ -1,3 +1,5 @@
+# site_gen.py
+```python
 #!/usr/bin/python3
 
 import os
@@ -54,3 +56,4 @@ if __name__=='__main__':
 		to_write = [i + '\n' for i in to_write]
 		to_write = prefix + to_write
 		f.writelines(to_write)
+```

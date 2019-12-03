@@ -8,19 +8,29 @@ Učí profesor Kubis a docent Veškrna.
 + [if](1/if)
 + [interpretace](1/interpretace)
 + [komentare](1/komentare)
++ [kricici_lukas](1/kricici_lukas)
 + [operace](1/operace)
 + [promenne](1/promenne)
 + [python_interpreter](1/python_interpreter)
++ [sude_nebo_liche](1/sude_nebo_liche)
 + [zakladni_funkce](1/zakladni_funkce)
 
 ## 2
++ [umocnovani](2/umocnovani)
 + [while](2/while)
 
 ## 3
++ [fizzbuzz](3/fizzbuzz)
 + [for](3/for)
 + [funkce](3/funkce)
 + [range](3/range)
 + [seznam](3/seznam)
+
+## 4
++ [bigdick_sito](4/bigdick_sito)
++ [erastotenovo_sito](4/erastotenovo_sito)
++ [nejbigdick](4/nejbigdick)
++ [vic_bigdick_sito](4/vic_bigdick_sito)
 
 ## [5](5)
 
@@ -36,4 +46,8 @@ Učí profesor Kubis a docent Veškrna.
 + [tenary_operator](8/tenary_operator)
 
 ## [9](9)
+
+## 
++ [code_gen](code_gen)
++ [site_gen](site_gen)
 

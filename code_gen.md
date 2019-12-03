@@ -1,3 +1,5 @@
+# code_gen.py
+```python
 #!/usr/bin/python3
 
 from site_gen import get_ext
@@ -18,3 +20,4 @@ if __name__=='__main__':
 		with open(py) as p:
 			with open(md, 'w') as m:
 				m.writelines(mkformat(os.path.split(p.name)[1], p.readlines()))
+```
