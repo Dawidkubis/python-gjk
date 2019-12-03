@@ -51,3 +51,15 @@ Učí profesor Kubis a docent Veškrna.
 + [code_gen](code_gen)
 + [site_gen](site_gen)
 
+## projekty/star_wars
++ [matej](projekty/star_wars/matej)
++ [petr](projekty/star_wars/petr)
+
+## projekty/tic_tac_toe
++ [katka](projekty/tic_tac_toe/katka)
++ [matej](projekty/tic_tac_toe/matej)
++ [ondra](projekty/tic_tac_toe/ondra)
++ [petr](projekty/tic_tac_toe/petr)
++ [tobias](projekty/tic_tac_toe/tobias)
++ [vlasta](projekty/tic_tac_toe/vlasta)
+

@@ -8,7 +8,7 @@ def get_ext(path, ext):
 	for i in os.listdir(path):
 		if i[0] == '.':
 			continue
-		if os.path.isdir(i):
+		if os.path.isdir(os.path.join(path, i)):
 			results = results + get_ext(os.path.join(path, i), ext)
 		else:
 			name, extension = os.path.splitext(i)
