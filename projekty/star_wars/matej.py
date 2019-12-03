@@ -4,7 +4,7 @@ import requests
 
 def ship_detail(ShipName):
     url = 'https://swapi.co/api/starships'
-    r = requests.get(url).json() # tohle je mega gay, protoze si nacitas vsechny data
+    r = requests.get(url).json() # ^-- tohle je mega gay, protoze si nacitas vsechny data
     res = r['results']			 # a sortujes v pythonu, misto toho abys si upravil
     ship_absolute = ''			 # url - mel bys to jednodussi, rychlejsi, prehlednejsi
     for ship in res:			 # a pametove efektivnejsi
@@ -17,7 +17,7 @@ def species_detail(SpeciesName):
     url = 'https://swapi.co/api/species' # stejnej problem jako nahore
     r = requests.get(url).json()
     res = r['results']
-    species_absolute = ''
+    species_absolute = '' # eeh, celkem dlouhej nazev, sice to neni explicitni chyba ale kratsi nazev = lepsi nazev
     for specie in res:
         if specie['name'] == SpeciesName:
             species_absolute = specie
@@ -50,8 +50,10 @@ def Crawl(Film_Title): # a poctvrte
     film_absolute = ''
     for film in res:
         if film['title'] == Film_Title:
-            film_absolute = film
-            break
+            film_absolute = film # <-- mozny vynechat protoze film == film_absolute je True
+            break				 # protoze film se updateuje kazdou loopu - kdyz loop skonci (`break`) tak film je promenna po breaku
+        						 # coz je hezky protoze recyklujes promenne aniz by jejich nazev
+        						 # neodpovidal hodnote
     print(film_absolute['opening_crawl'])
 
 
