@@ -13,4 +13,5 @@ Idea je taková že vezmeme nějakej source kód a přeložíme ho na strojový 
 Programu který překládá se říká "compiler".
 
 > konkretne compiler preklada kod urovne vyssi (napriklad python) do urovne nizsi (napriklad pythoni bytecode)
+
 	- Karel Jílek
