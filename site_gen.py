@@ -41,15 +41,16 @@ def path_dict(files):
 		di[x].append(y)
 	return di
 
-prefix = []
-if os.path.exists('PREFIX.md'):
-	with open('PREFIX.md') as p:
-		prefix = p.readlines()
+if __name__=='__main__':
+	prefix = []
+	if os.path.exists('PREFIX.md'):
+		with open('PREFIX.md') as p:
+			prefix = p.readlines()
 
-files = sorted([i[2:] for i in get_mds('.') if i != './README' and i != './PREFIX'])
+	files = sorted([i[2:] for i in get_mds('.') if i != './README' and i != './PREFIX'])
 
-with open('README.md', 'w') as f:
-	to_write = mkformat(files)
-	to_write = [i + '\n' for i in to_write]
-	to_write = prefix + to_write
-	f.writelines(to_write)
+	with open('README.md', 'w') as f:
+		to_write = mkformat(files)
+		to_write = [i + '\n' for i in to_write]
+		to_write = prefix + to_write
+		f.writelines(to_write)
