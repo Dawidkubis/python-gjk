@@ -25,7 +25,7 @@ def generate_primes(lim): # lim je horni hranice intervalu
 
         primes.append(x) # ukladame prvocislo do seznamu prvocisel
 
-        for i in nums: # prochazime nums a snazime se rasove cistit
+        for i in nums: # prochazime nums a snazime se filtrovat
             # cili nechat jenom cisla ktery nejsou delitelna nove pridanym
             # prvocislem
             if i % x: # True jenom pokud `i % x` neni 0 -> nedelitelny
