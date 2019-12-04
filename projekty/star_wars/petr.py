@@ -3,15 +3,19 @@ import json
 import time
 
 
-# helper functions
+# helper functions - Pedro
+# nice, delas abstrakce coz je super
 def get_json(url):
     return requests.get(url).json()
 
-
+# dalsi abstrakce, hmm
+# asi celkem v pohode, ale nazvy potencialne moc dlouhy
 def get_film_titles(films):
     list_films = []
     for film in films:
         list_films.append(get_json(film)["title"])
+    # mohl si napsat:
+    #return [get_json(film)["title"] for film in films]
     return list_films
 
 
@@ -20,8 +24,9 @@ def get_character_names(characters):
     for character in characters:
         list_characters.append(get_json(character)["name"])
 
-    return sorted(list_characters)
-
+    return sorted(list_characters) # asi ne uplne dobry volat na tom sorted
+								   # ztracis trochu generalizaci
+								   # ale to je fakt detail 
 
 def get_spaceship_names(spaceships):
     list_spaceships = []
@@ -35,7 +40,8 @@ def get_film_info(film):
     list_characters = get_character_names(film["characters"])
     list_spaceships = get_spaceship_names(film["starships"])
     return [film["title"], film["director"], film["episode_id"],
-                         list_characters, list_spaceships]
+                         list_characters, list_spaceships] # kdyz uz takhle formatujes tak
+    													   # muzes rovnou na vic radku
 
 
 def ship_detail(shipname):
@@ -99,7 +105,7 @@ def crawl(title):
 
 
 if __name__ == "__main__":
-    # testing program. runs only if run as main
+    # testing program. runs only if run as main - Pedro
     print(ship_detail("Imperial shuttle"))
     print(species_detail("Hutt"))
     print(person_detail("Owen Lars"))
