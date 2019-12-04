@@ -92,7 +92,7 @@ def film_detail(filmidentifier, id_type="ep_id"):
             list_results.append(get_film_info(result))
 
     else:
-        raise Exception('Bad film id type')
+        raise Exception('Bad film id type') # eeh, ok
 
     return list_results
 
@@ -116,4 +116,6 @@ if __name__ == "__main__":
     print(film_detail(2))
 
     crawl("A New Hope")
+
+# shit Pedro mas to moc dobry, priste to udelej hur pls
 ```
