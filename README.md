@@ -15,8 +15,6 @@ Učí profesor Kubis a docent Veškrna.
 + [sude_nebo_liche](1/sude_nebo_liche)
 + [zakladni_funkce](1/zakladni_funkce)
 
-## [10](10)
-
 ## 2
 + [umocnovani](2/umocnovani)
 + [while](2/while)
@@ -48,6 +46,8 @@ Učí profesor Kubis a docent Veškrna.
 + [tenary_operator](8/tenary_operator)
 
 ## [9](9)
+
+## [A](A)
 
 ## 
 + [code_gen](code_gen)
