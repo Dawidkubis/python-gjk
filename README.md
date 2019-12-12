@@ -2,52 +2,52 @@
 
 Učí profesor Kubis a docent Veškrna.
 
-## 1
-+ [bool_vyrazy](1/bool_vyrazy)
-+ [datove_typy](1/datove_typy)
-+ [if](1/if)
-+ [interpretace](1/interpretace)
-+ [komentare](1/komentare)
-+ [kricici_lukas](1/kricici_lukas)
-+ [operace](1/operace)
-+ [promenne](1/promenne)
-+ [python_interpreter](1/python_interpreter)
-+ [sude_nebo_liche](1/sude_nebo_liche)
-+ [zakladni_funkce](1/zakladni_funkce)
+## 01
++ [bool_vyrazy](01/bool_vyrazy)
++ [datove_typy](01/datove_typy)
++ [if](01/if)
++ [interpretace](01/interpretace)
++ [komentare](01/komentare)
++ [kricici_lukas](01/kricici_lukas)
++ [operace](01/operace)
++ [promenne](01/promenne)
++ [python_interpreter](01/python_interpreter)
++ [sude_nebo_liche](01/sude_nebo_liche)
++ [zakladni_funkce](01/zakladni_funkce)
 
-## 2
-+ [umocnovani](2/umocnovani)
-+ [while](2/while)
+## 02
++ [umocnovani](02/umocnovani)
++ [while](02/while)
 
-## 3
-+ [fizzbuzz](3/fizzbuzz)
-+ [for](3/for)
-+ [funkce](3/funkce)
-+ [range](3/range)
-+ [seznam](3/seznam)
+## 03
++ [fizzbuzz](03/fizzbuzz)
++ [for](03/for)
++ [funkce](03/funkce)
++ [range](03/range)
++ [seznam](03/seznam)
 
-## 4
-+ [bigdick_sito](4/bigdick_sito)
-+ [erastotenovo_sito](4/erastotenovo_sito)
-+ [nejbigdick](4/nejbigdick)
-+ [vic_bigdick_sito](4/vic_bigdick_sito)
+## 04
++ [bigdick_sito](04/bigdick_sito)
++ [erastotenovo_sito](04/erastotenovo_sito)
++ [nejbigdick](04/nejbigdick)
++ [vic_bigdick_sito](04/vic_bigdick_sito)
 
-## [5](5)
+## [05](05)
 
-## [6](6)
+## [06](06)
 
-## [7](7)
+## [07](07)
 
-## 8
-+ [dict](8/dict)
-+ [importy](8/importy)
-+ [list_comprehensions](8/list_comprehensions)
-+ [requests_and_http](8/requests_and_http)
-+ [tenary_operator](8/tenary_operator)
+## 08
++ [dict](08/dict)
++ [importy](08/importy)
++ [list_comprehensions](08/list_comprehensions)
++ [requests_and_http](08/requests_and_http)
++ [tenary_operator](08/tenary_operator)
 
-## [9](9)
+## [09](09)
 
-## [A](A)
+## [10](10)
 
 ## 
 + [code_gen](code_gen)
