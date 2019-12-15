@@ -49,6 +49,12 @@ Učí profesor Kubis a docent Veškrna.
 
 ## [10](10)
 
+## 11
++ [faktorial_rekurze](11/faktorial_rekurze)
++ [fibonacci](11/fibonacci)
++ [fibonacci_rekurze](11/fibonacci_rekurze)
++ [rekurze](11/rekurze)
+
 ## 
 + [code_gen](code_gen)
 + [site_gen](site_gen)
