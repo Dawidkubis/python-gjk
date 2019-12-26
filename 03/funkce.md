@@ -7,10 +7,6 @@ znovupoužít kusy kódu.
 
 Funkce slouží jako logické rozdělení toho jak má fungovat náš program.
 
-Funkce jsou žívot.
-
-Funkce jsou smrt.
-
 ```python
 
 def fungce():
