@@ -56,7 +56,11 @@ Učí profesor Kubis a docent Veškrna.
 + [rekurze](11/rekurze)
 
 ## 12
++ [priklad](12/priklad)
 + [tridy_a_objekty](12/tridy_a_objekty)
+
+## 13
++ [fraction](13/fraction)
 
 ## 
 + [code_gen](code_gen)
