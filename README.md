@@ -55,6 +55,9 @@ Učí profesor Kubis a docent Veškrna.
 + [fibonacci_rekurze](11/fibonacci_rekurze)
 + [rekurze](11/rekurze)
 
+## 12
++ [tridy_a_objekty](12/tridy_a_objekty)
+
 ## 
 + [code_gen](code_gen)
 + [site_gen](site_gen)
