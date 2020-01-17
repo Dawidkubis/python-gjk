@@ -25,5 +25,11 @@ To je proto, že objekt se automaticky přiřadí k proměnné `self` (nebo jak�
 Protože `__init__` je konstruktor, tak k self se přiřadí prázdný objekt, kterému potom dáváme nějaké vlastnosti.
 Je to lechce podobný proces jako při práci se slovníky:
 ```python
+def init(age, height)
+	x = dict()
+	x["age"] = age
+	x["height"] = height
 
+	return x
 ```
+Až na to, že k datům objektu přistupujeme pomocí tečky (`x.age` místo `x["age"]`).
