@@ -27,7 +27,10 @@ class Fraction:
 			self.up = self.up // divisor # znena sebe sama
 			self.down = self.down // divisor # a zase
 
-			self.base() # rekurze, slo by to udelat i snadneji
+		if self.up < 0 and self.down < 0:
+			self.up = -self.up
+			self.down = -self.down
+
 
 	# scitani zlomku
 	def add(self, other):
