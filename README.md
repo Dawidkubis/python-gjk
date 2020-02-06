@@ -70,6 +70,10 @@ Učí profesor Kubis a docent Veškrna.
 + [code_gen](code_gen)
 + [site_gen](site_gen)
 
+## fotky
++ [kubis1](fotky/kubis1)
++ [kubis2](fotky/kubis2)
+
 ## projekty/star_wars
 + [matej](projekty/star_wars/matej)
 + [petr](projekty/star_wars/petr)
