@@ -2,6 +2,9 @@
 
 Učí profesor Kubis a docent Veškrna.
 
+![kubis1](fotky/kubis1.jpg)
+![kubis2](fotky/kubis2.jpg)
+
 ## 01
 + [bool_vyrazy](01/bool_vyrazy)
 + [datove_typy](01/datove_typy)
@@ -61,6 +64,10 @@ Učí profesor Kubis a docent Veškrna.
 
 ## 13
 + [fraction](13/fraction)
+
+## 14
++ [animal](14/animal)
++ [dedicnost](14/dedicnost)
 
 ## 
 + [code_gen](code_gen)
